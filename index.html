@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+
+		<!-- Wir sorgen dafür, dass auch Umlaute im Quelltext verstanden werden -->
+		<meta charset="utf-8">
+
+		<!-- Das definiert, wie breit das Fenster auf iPad/iPhone/Android erscheint -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		
+		<!-- Alle jQuery-PlugIns, die man so braucht -->
+   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<!-- Und Deine eigenen Scripte kommen in js/scripts.js -->
+		<script src="js/scripts.js" type="text/javascript"></script>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+		<!-- Jetzt binden wir die Stylesheets ein -->
+		<link rel="stylesheet" type="text/css" href="css/global.css" media="all" />
+
+	</head>
+	
+	<body>
+     
+         
+        <!--Slideshow-->
+        <div class="slideshowContainer">
+            <img class="imageSlides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Southern_rough-winged_swallow_%28Stelgidopteryx_ruficollis_ruficollis%29.JPG/1200px-Southern_rough-winged_swallow_%28Stelgidopteryx_ruficollis_ruficollis%29.JPG">
+            <img class="imageSlides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Rosy_ermine_moth_%28Trosia_nigropunctigera%29.jpg/1599px-Rosy_ermine_moth_%28Trosia_nigropunctigera%29.jpg">
+            <img class="imageSlides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Turdus_philomelos_-_Western_Springs_Lakeside_Park.jpg/1599px-Turdus_philomelos_-_Western_Springs_Lakeside_Park.jpg">
+            <img class="imageSlides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Gephyrocapsa_oceanica_color.jpg/1200px-Gephyrocapsa_oceanica_color.jpg">
+  
+
+                <!--We can replace the span tag with an img one to customize our own buttons-->
+                <span id ="leftArrow" class="slideshowArrow">&triangleleft;</span>
+                <span id ="rightArrow" class="slideshowArrow">&triangleright;</span>
+  
+                <div class="slideshowCircles">
+        <!-- Filled 'dot' class is set to first image in slideshow, and then via Javascript the filled 'dot' class follows the current image.
+        Make sure you match the number of these 'circle' span elements to the number of images in your slideshow. -->
+                    <span class="circle dot"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                </div>
+        </div>
+        
+        
+        
+        
+        
+        
+	</body>
+	
+</html>
